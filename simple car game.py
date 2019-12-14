@@ -7,8 +7,6 @@ while True:
         else:
             print('start the car')
             started=True
-        
-            
     elif command=='stop':
         if not started:
             print("car already stopped")
